@@ -3,92 +3,89 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-		<!-- UNICONS -->
+		<title>Portfolio | Fazaa</title>
 		<!-- bootstrap -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+		<!-- UNICONS -->
 		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 		<!-- CSS -->
 		<link rel="stylesheet" href="style.css" />
-
-
 		<!-- swiper js -->
-		<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-		<title>Portfolio | Fazaa</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	</head>
-
-	<body>
-		<div class="container">
 			<!-- --------------- NAVBAR --------------- -->
-			<nav id="header">
-				<div class="nav-logo">
-					<p class="nav-name">Fazaa</p>
-					<span></span>
-				</div>
-				<div class="nav-menu" id="myNavMenu">
-					<ul class="nav_menu_list">
-						<li class="nav_list">
-							<a href="#home" class="nav-link active-link">Home</a>
-							<div class="circle"></div>
-						</li>
-						<li class="nav_list">
-							<a href="#about" class="nav-link">About</a>
-							<div class="circle"></div>
-						</li>
-						<li class="nav_list">
-							<a href="#projects" class="nav-link">Projects</a>
-							<div class="circle"></div>
-						</li>
-						<li class="nav_list">
-							<a href="#contact" class="nav-link">Contact</a>
-							<div class="circle"></div>
-						</li>
-					</ul>
-				</div>
-				<div class="nav-button"></div>
-				<div class="nav-menu-btn">
-					<i class="uil uil-bars" onclick="myMenuFunction()"></i>
-				</div>
-			</nav>
-
+			<body class="vh-100 overflow hidden">
+				<!-- Navbar -->
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="container">
+						<a class="navbar-brand" href="#">Fazaa</a>
+						<button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<!-- Sidebar -->
+						<div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+							<!-- Sidebar Header -->
+							<div class="offcanvas-header text-white border-bottom">
+								<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Fazaa</h5>
+								<button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							</div>
+							<!-- Sidebar Body -->
+							<div class="offcanvas-body d-flex flex-column  flex-lg-row p-4 p-lg-0">
+								<ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+									<li class="nav-item mx-2">
+										<a class="nav-link active" aria-current="page" href="#home">Home</a>
+									</li>
+									<li class="nav-item mx-2">
+										<a class="nav-link" href="#about">About</a>
+									</li>
+									<li class="nav-item mx-2">
+										<a class="nav-link" href="#projects">Projects</a>
+										<li class="nav-item mx-2">
+											<a class="nav-link" href="#contacts">Contact</a>
+										</li>
+									</li>
+							</div>
+						</div>
+					</nav>
+					
 			<!-- -------------- MAIN ---------------- -->
 			<main class="wrapper">
 				<!-- -------------- FEATURED BOX ---------------- -->
 				<section class="featured-box" id="home">
 					<div class="featured-text">
-						<div class="featured-text-card"></div>
+						<div class="featured-text-card">
+						</div>
 						<div class="featured-name">
 							<p>I'm <span class="typedText"></span></p>
 						</div>
 						<div class="featured-text-info">
-							<p>
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi commodi rem sint, consequuntur sequi facere fugit quibusdam enim et soluta optio. Itaque obcaecati placeat necessitatibus at, quidem impedit? Asperiores,
-								explicabo?
+							<p>Experienced frontend developer with a passion for creating visually stunning
+								and user-friendly websites.
 							</p>
 						</div>
 						<div class="featured-text-btn">
-							<a class="btn blue-btn" href="#projects">View My Project</a>
+							
+							<a class="btn blue-btn" href="projects">View My Projects</a>
+
 						</div>
 						<div class="social_icons">
-							<div class="icon"><i class="uil uil-instagram"></i></div>
+							<div class="icon"><a href="https://github.com/Fazaa1"><i class="uil uil-github-alt"></i></a></div>
 							<div class="icon"><i class="uil uil-linkedin-alt"></i></div>
 							<div class="icon"><i class="uil uil-twitter"></i></div>
-							<div class="icon"><i class="uil uil-github-alt"></i></div>
+							<div class="icon"><i class="uil uil-instagram"></i></div>
 						</div>
 					</div>
-					<!-- HEADER -->
-					<section class="header"> </section>
 					<div class="featured-image">
-						<div class="row-align-items-center justify-content-spacebe"> 
-							<div class="col-md-6">
-							</div>
-							
+						<div class="image">
+							<img src="PROFILE__2_-removebg-preview.png" alt="avatar">
 						</div>
+					</div>
 						</div>
-				</section>
+					</section>
+						
+					
+					<!-- HEADER -->
+					
 				<!-- -------------- ABOUT BOX ---------------- -->
 				<section class="section" id="about">
 					<div class="top-header">
@@ -99,8 +96,7 @@
 							<div class="about-info">
 								<h3>My introduction</h3>
 								<p>
-									I am well-versed in HTML, CSS and JavaScript , and other cutting edge frameworks and libraries,which allows me to implement interactive features. Additionally, I have experirence working with content management systems
-									(CMS) like WordPress.
+									Saya adalah seorang pelajar berumur 17 tahun, saat ini duduk dibangku sekolah kelas 11 SMKN 1 Karawang jurusan Rekayasa Perangkat Lunak. Tempat tinggal saya di Karawang.
 								</p>
 								<div class="about-btn"></div>
 							</div>
@@ -126,66 +122,115 @@
 				<section class="projects-section" id="projects">
 					<div class="top-header">
 						<h1>Projects</h1>
-						</div>
-					<div class="swiper-projects-swiper">
-						<div class="swipper-wrapper">
-							<div class="swiper-slide">
+
+						<div class="row mb-4">
+							<div class="col-md">
 								<div class="card">
+									<img class="card-img-top" src="Yellow Professional Gradient App Development Banner Landscape.svg" alt="Card Image Cap" />
 									<div class="card-body">
-										<img src="Yellow Professional Gradient App Development Banner Landscape.svg"  alt="" class="card-img-top rounded mb-3">
-									<h6 class="fw-semibold"> Form Register </h6>
-									<a class="btn" href="https://fazaa1.github.io/tugas-pwb-form/">Read more</a>
+										<h6 class="fw-semibold">Form Register</h6>
+										<p class="card-text">Ini adalah Project Tentang Tabel yang saya buat</p>
+										<a class="btn" href="https://fazaa1.github.io/tugas-pwb-form/">Read more</a>
+									</div>
 								</div>
 							</div>
-					</div>
-				</div>
-			</section>
 
-				<!-- -------------- CONTACT BOX ---------------- -->
+							<div class="col-md">
+								<div class="card">
+									<img class="card-img-top" src="Yellow Professional Gradient App Development Banner Landscape.svg" alt="Card Image Cap" />
+									<div class="card-body">
+										<h6 class="fw-semibold">TUGAS DOM</h6>
+										<p class="card-text">Ini adalah Project Tentang Tabel yang saya buat</p>
+										<a class="btn" href="https://fazaa1.github.io/Tugas-Bootsrap/">Read more</a>
+									</div>
+								</div>
+							</div>
 
-				<section class="section" id="contact">
-					<div class="top-header">
-						<h1>Lets Moots</h1>
-					</div>
-					<div class="row">
-						<div class="col">
-							<div class="contact-info">
-								<h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-								<p><i class="uil uil-envelope"></i> Email: alfadlizaban@gmail.com</p>
-								<p><i class="uil uil-phone"></i> +91 70822 00001</p>
-							</div>
-						</div>
-						<div class="col">
-							<div class="form-control">
-								<div class="input-group">
-									<input required="" type="text" name="text" autocomplete="off" class="input" />
-									<label class="user-label">First Name</label>
-									<label class="user-label">First Name</label>
-								</div>
-								<div class="text-area">
-									<textarea placeholder="Message"></textarea>
-								</div>
-								<div class="form-button">
-									<button class="btn">Send<i class="uil uil-message"></i></button>
+							<div class="col-md">
+								<div class="card">
+									<img class="card-img-top" src="IMG/Tugas_CSS.png" alt="Card Image Cap" />
+									<div class="card-body">
+										<h6 class="fw-semibold">TUGAS CSS</h6>
+										<p class="card-text">Ini adalah Project Tentang Tabel yang saya buat</p>
+										<a class="btn" href="https://fazaa1.github.io/tugas-css12/">Read more</a>
+									</div>
 								</div>
 							</div>
+
+							<div class="col-md">
+								<div class="card">
+									<img class="card-img-top" src="Yellow Professional Gradient App Development Banner Landscape.svg" alt="Card Image Cap" />
+									<div class="card-body">
+										<h6 class="fw-semibold">Table </h6>
+										<p class="card-text">Ini adalah Project Tentang Tabel yang saya buat</p>
+										<a class="btn" href="https://fazaa1.github.io/Tabel_HTML/">Read more</a>
+									</div>
+								</div>
+							</div>
+
+
 						</div>
 					</div>
 				</section>
-			</main>
 
+				<!-- -------------- CONTACT BOX ---------------- -->
+
+				<section class="section" id="contacts">
+					<div class="container1">
+						<div class="left-column">
+							<h2>Get In Touch</h2>
+							<form>
+								<label for="name">Your Name : </label>
+								<input type="text" name="name" required>
+								<label for="email">Your Email : </label>
+								<input type="email" name="email" required>
+								<label for="message"> Message : </label>								
+								<textarea name="message" required></textarea>
+								<button type="submit">Send</button>
+							</form>
+						</div>
+					</div>
+						<div class="right-column">
+								<div class="content">
+									<h1> Contact Us</h1>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore dicta soluta nemo ipsam aut et quas eaque ullam distinctio nobis, commodi autem possimus, quae tenetur repellendus totam neque adipisci doloribus!</p>	
+									<h2>Contact Information</h2>
+									<p>EMail: alfadlizaban@gmail.com</p>
+									<p>Phone: 0891892891</p>
+
+								</div>
+
+						</div>
+					</section>
 			<!-- --------------- FOOTER --------------- -->
-			<footer>
-				<div class="top-footer">
+			<footer class="text-center bg-body-tertiary">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+					  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#contacts">Contacts</a>
+					</li>
 					
-					
-			</footer>
-		</div>
+				  </ul>
+			  
+				<!-- Copyright -->
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+				  © 2023 Designed By
+				  <a class="text-body" href="home">Fazaa</a>
+				</div>
+				<!-- Copyright -->
+			  </footer>
 
 		<!-- JS BOOTSTRAP -->
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 
 		<!-- swiper js -->
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -198,12 +243,13 @@
 
 		<!-- ----- MAIN JS ----- -->
 		<script src="script.js"></script>
-
+		
+		</div>
 		<script>
-			var swiper = new swiper(".MyProjects", {
-				slidesPerview : 3,
+			var swiper = new swiper('.MyProjects', {
+				slidesPerview: 3,
 				spaceBetween: 30,
-		});
-			</script>
+			});
+		</script>
 	</body>
 </html>
