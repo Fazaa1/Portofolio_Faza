@@ -172,11 +172,17 @@ i {
 	gap: 30px;
 }
 
-.uil-github-alt {
+.uil-github-alt,
+.uil-linkedin-alt,
+.uil-whatsapp,
+.uil-instagram {
 	color: #ffff;
 }
 
-.uil-github-alt:hover {
+.uil-github-alt:hover,
+.uil-linkedin-alt:hover,
+.uil-whatsapp:hover,
+.uil-instagram:hover {
 	color: #e95793;
 }
 .icon {
@@ -682,6 +688,7 @@ form {
 label {
 	display: block;
 	margin-top: 15px;
+	color: #ffff;
 }
 
 input[type='text'],
@@ -730,6 +737,10 @@ textarea {
 	.right-column {
 		width: 85%;
 		margin-top: 25px;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
 	}
 }
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
